@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme based</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" href="https://dummyimage.com/24x24/09f/fff&text=L" type="image/x-icon">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <style>
+    .material-symbols-outlined{
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 300,
+        'GRAD' -25,
+        'opsz' 20
+    }
+  </style>
+</head>
+
+<body class="theme-light">
+  <header class="header">
+    <nav class="nav nav-left">
+      <ul class="menu menu-logo">
+        <li class="menu-item">
+          <a href="" class="menu-item-link">
+            <img src="https://dummyimage.com/400x200/09f/fff&text=logo" alt="Logo" class="logo">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="nav nav-right">
+      <ul class="menu menu-primary">
+        <li class="menu-item">
+          <a href="" class="menu-item-link">Home</a>
+        </li>
+        <li class="menu-item">
+          <a href="about-us" class="menu-item-link">About Us</a>
+        </li>
+        <li class="menu-item">
+          <a href="contact-us" class="menu-item-link">Contact Us</a>
+        </li>
+        <li class="menu-item">
+          <a href="javascript:void(0)" class="menu-item-link material-symbols-outlined" id="theme-switcher">
+            dark_mode
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="banner">
+      <h2 class="title">
+        Sample Website
+      </h2>
+      <h5 class="subtitle">
+        This is sample website for theme based css. 
+      </h5>
+    </section>
+    <section class="testimonials">
+      <div class="cards" id="testimonials-cards">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://dummyimage.com/400x300/09f/fff&text=User" alt="Title 1">
+          </div>
+          <h4 class="card-title">
+            Title 1
+          </h4>
+          <p class="card-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi excepturi animi voluptatibus tenetur nam ut praesentium incidunt unde rerum provident, necessitatibus magnam voluptates minima quos ad consequatur officia ipsa fugiat!
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="https://dummyimage.com/400x300/09f/fff&text=User" alt="Title 2">
+          </div>
+          <h4 class="card-title">
+            Title 2
+          </h4>
+          <p class="card-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sapiente officiis illo commodi voluptas hic, consequatur voluptatem tenetur aliquid, eveniet, labore eos possimus accusamus. Tempore quos reprehenderit odit molestias eius!
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="https://dummyimage.com/400x300/09f/fff&text=User" alt="Title 3">
+          </div>
+          <h4 class="card-title">
+            Title 3
+          </h4>
+          <p class="card-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nobis ipsa temporibus tempora dicta, vitae quidem obcaecati quis cum magnam repellat, itaque, ab nihil quae pariatur culpa placeat natus explicabo.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="https://dummyimage.com/400x300/09f/fff&text=User" alt="Title 4">
+          </div>
+          <h4 class="card-title">
+            Title 4
+          </h4>
+          <p class="card-description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi explicabo veritatis sapiente vero velit officiis unde quas, fugiat iste odit, odio illo impedit porro a placeat libero nesciunt atque nemo.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="https://dummyimage.com/400x300/09f/fff&text=User" alt="Title 5">
+          </div>
+          <h4 class="card-title">
+            Title 5
+          </h4>
+          <p class="card-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam itaque asperiores, obcaecati cupiditate rem et laudantium recusandae, officia adipisci nam voluptatum quisquam quis assumenda expedita? Atque laborum eligendi veritatis neque!
+          </p>
+        </div>
+      </div>
+      <div class="cards-navigation" data-target="#testimonials-cards" data-item=".card">
+        <button class="navigation-prev">
+          <span class="material-symbols-outlined">
+            arrow_back
+          </span>
+        </button>
+        <button class="navigation-next">
+          <span class="material-symbols-outlined">
+            arrow_forward
+          </span>
+        </button>
+      </div>
+    </section>
+  </main>
+  <script src="assets/script.js"></script>
+</body>
+
+</html>
