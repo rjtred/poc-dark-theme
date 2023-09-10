@@ -93,6 +93,12 @@ nav .menu {
   justify-content: center;
 
   border-bottom: 1px solid var(--secondary-color);
+
+  background-color: var(--secondary-color);
+}
+
+.banner * {
+  color: var(--primary-color);
 }
 
 .banner .title {
@@ -126,11 +132,13 @@ nav .menu {
   border: 1px solid var(--secondary-color);
 
   border-radius: 10px;
+
+  min-width: 300px;
 }
 
 .testimonials .cards .card .card-image img{
   border-radius: 10px 10px 0px 0px;
-  width: 300px;
+  width: 100%;
 }
 .testimonials .cards .card .card-title {
   font-size: 32px;
@@ -161,4 +169,19 @@ nav .menu {
 
 .testimonials .cards-navigation button.navigation-next {
   right: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 20px;
+  border-top: 1px solid var(--secondary-color);
+}
+
+.menu-social-links .menu-item .menu-item-link svg {
+  fill: var(--secondary-color);
+  width: 24px;
+  height: 24px;
 }
