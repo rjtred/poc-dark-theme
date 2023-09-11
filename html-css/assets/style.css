@@ -94,11 +94,11 @@ nav .menu {
 
   border-bottom: 1px solid var(--secondary-color);
 
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .banner * {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .banner .title {
