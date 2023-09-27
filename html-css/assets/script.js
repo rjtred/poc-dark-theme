@@ -13,11 +13,17 @@ const themeLoad = () => {
   themeSwitcher.innerHTML = `${nextTheme}_mode`
 }
 
+let darkmode 
+function addDarkmodeWidget() {
+  darkmode = new Darkmode()
+}
+
 const themeSwitch = () => {
   nextTheme = currentTheme
   currentTheme = getnext()
 
-  themeLoad()
+  // themeLoad()
+  darkmode.toggle();
 }
 
 themeSwitcher.addEventListener('click', themeSwitch)
@@ -60,6 +66,7 @@ const initCardsNavigations = () => {
 }
 
 window.addEventListener('load', () => {
-  themeLoad()
+  addDarkmodeWidget()
+  // themeLoad()
   initCardsNavigations()
 })

@@ -6,9 +6,9 @@ body.theme-light {
 }
 
 body.theme-dark {
-  --primary-color: black;
-  --secondary-color: white;
-  
+  --primary-color: white;
+  --secondary-color: black;
+
   --default-font: 'Poppins', sans-serif;
 }
 
